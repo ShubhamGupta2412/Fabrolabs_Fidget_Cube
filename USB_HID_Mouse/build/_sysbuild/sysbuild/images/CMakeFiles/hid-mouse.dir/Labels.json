@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/_sysbuild/sysbuild/images/CMakeFiles/hid-mouse"
+		},
+		{
+			"file" : "C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/_sysbuild/sysbuild/images/CMakeFiles/hid-mouse.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/_sysbuild/sysbuild/images/CMakeFiles/hid-mouse-complete.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/_sysbuild/sysbuild/images/hid-mouse-prefix/src/hid-mouse-stamp/hid-mouse-build.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/_sysbuild/sysbuild/images/hid-mouse-prefix/src/hid-mouse-stamp/hid-mouse-configure.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/_sysbuild/sysbuild/images/hid-mouse-prefix/src/hid-mouse-stamp/hid-mouse-download.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/_sysbuild/sysbuild/images/hid-mouse-prefix/src/hid-mouse-stamp/hid-mouse-install.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/_sysbuild/sysbuild/images/hid-mouse-prefix/src/hid-mouse-stamp/hid-mouse-mkdir.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/_sysbuild/sysbuild/images/hid-mouse-prefix/src/hid-mouse-stamp/hid-mouse-patch.rule"
+		},
+		{
+			"file" : "C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/_sysbuild/sysbuild/images/hid-mouse-prefix/src/hid-mouse-stamp/hid-mouse-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"hid-mouse"
+		],
+		"name" : "hid-mouse"
+	}
+}

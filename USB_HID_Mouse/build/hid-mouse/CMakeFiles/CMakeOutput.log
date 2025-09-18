@@ -1,0 +1,467 @@
+The target system is: Generic - 4.1.99 - arm
+The host system is: Windows - 10.0.26100 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/ncs/toolchains/b8b84efebd/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/ncs/toolchains/b8b84efebd/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-zephyr-eabi-gcc.exe (Zephyr SDK 0.17.0) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_056e4 && [1/2] Building C object CMakeFiles/cmTC_056e4.dir/src.c.obj
+[2/2] Linking C executable cmTC_056e4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wall_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_71a46 && [1/2] Building C object CMakeFiles/cmTC_71a46.dir/src.c.obj
+[2/2] Linking C executable cmTC_71a46
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wformat__Wformat_security_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_01851 && [1/2] Building C object CMakeFiles/cmTC_01851.dir/src.c.obj
+[2/2] Linking C executable cmTC_01851
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wformat__Wformat_zero_length_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_13127 && [1/2] Building C object CMakeFiles/cmTC_13127.dir/src.c.obj
+[2/2] Linking C executable cmTC_13127
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wdouble_promotion_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_5cefd && [1/2] Building C object CMakeFiles/cmTC_5cefd.dir/src.c.obj
+[2/2] Linking C executable cmTC_5cefd
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wpointer_sign_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_10685 && [1/2] Building C object CMakeFiles/cmTC_10685.dir/src.c.obj
+[2/2] Linking C executable cmTC_10685
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wpointer_arith_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_d7253 && [1/2] Building C object CMakeFiles/cmTC_d7253.dir/src.c.obj
+[2/2] Linking C executable cmTC_d7253
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wexpansion_to_defined_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_da18a && [1/2] Building C object CMakeFiles/cmTC_da18a.dir/src.c.obj
+[2/2] Linking C executable cmTC_da18a
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wlogical_op_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_6d298 && [1/2] Building C object CMakeFiles/cmTC_6d298.dir/src.c.obj
+[2/2] Linking C executable cmTC_6d298
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wmissing_field_initializers_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_7839b && [1/2] Building C object CMakeFiles/cmTC_7839b.dir/src.c.obj
+[2/2] Linking C executable cmTC_7839b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wpacked_bitfield_compat_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_7b4c6 && [1/2] Building C object CMakeFiles/cmTC_7b4c6.dir/src.c.obj
+[2/2] Linking C executable cmTC_7b4c6
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wvla_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_02490 && [1/2] Building C object CMakeFiles/cmTC_02490.dir/src.c.obj
+[2/2] Linking C executable cmTC_02490
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wunused_but_set_variable_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_7b474 && [1/2] Building C object CMakeFiles/cmTC_7b474.dir/src.c.obj
+[2/2] Linking C executable cmTC_7b474
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Werror_implicit_int_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_8111c && [1/2] Building C object CMakeFiles/cmTC_8111c.dir/src.c.obj
+[2/2] Linking C executable cmTC_8111c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_printf_return_value_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_cd1f7 && [1/2] Building C object CMakeFiles/cmTC_cd1f7.dir/src.c.obj
+[2/2] Linking C executable cmTC_cd1f7
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_mstack_protector_guard_global_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_cd744 && [1/2] Building C object CMakeFiles/cmTC_cd744.dir/src.c.obj
+[2/2] Linking C executable cmTC_cd744
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fsanitize_undefined_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_8b5d4 && [1/2] Building C object CMakeFiles/cmTC_8b5d4.dir/src.c.obj
+[2/2] Linking C executable cmTC_8b5d4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fsanitize_undefined_trap_on_error_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_6e2f8 && [1/2] Building C object CMakeFiles/cmTC_6e2f8.dir/src.c.obj
+[2/2] Linking C executable cmTC_6e2f8
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_freestanding_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_90f53 && [1/2] Building C object CMakeFiles/cmTC_90f53.dir/src.c.obj
+[2/2] Linking C executable cmTC_90f53
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ffreestanding_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_1eb01 && [1/2] Building C object CMakeFiles/cmTC_1eb01.dir/src.c.obj
+[2/2] Linking C executable cmTC_1eb01
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_gdwarf_4_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_83081 && [1/2] Building C object CMakeFiles/cmTC_83081.dir/src.c.obj
+[2/2] Linking C executable cmTC_83081
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fdiagnostics_color_always_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_7d225 && [1/2] Building C object CMakeFiles/cmTC_7d225.dir/src.c.obj
+[2/2] Linking C executable cmTC_7d225
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___gc_sections succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_2892a && [1/2] Building C object CMakeFiles/cmTC_2892a.dir/src.c.obj
+[2/2] Linking C executable cmTC_2892a
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___build_id_none succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_3909b && [1/2] Building C object CMakeFiles/cmTC_3909b.dir/src.c.obj
+[2/2] Linking C executable cmTC_3909b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__nostdlib succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_e3237 && [1/2] Building C object CMakeFiles/cmTC_e3237.dir/src.c.obj
+[2/2] Linking C executable cmTC_e3237
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__static succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_01256 && [1/2] Building C object CMakeFiles/cmTC_01256.dir/src.c.obj
+[2/2] Linking C executable cmTC_01256
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__X succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_99af4 && [1/2] Building C object CMakeFiles/cmTC_99af4.dir/src.c.obj
+[2/2] Linking C executable cmTC_99af4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__N succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_49dd1 && [1/2] Building C object CMakeFiles/cmTC_49dd1.dir/src.c.obj
+[2/2] Linking C executable cmTC_49dd1
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_warn succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_c98e7 && [1/2] Building C object CMakeFiles/cmTC_c98e7.dir/src.c.obj
+[2/2] Linking C executable cmTC_c98e7
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_error succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_af730 && [1/2] Building C object CMakeFiles/cmTC_af730.dir/src.c.obj
+[2/2] Linking C executable cmTC_af730
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___print_memory_usage succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_04454 && [1/2] Building C object CMakeFiles/cmTC_04454.dir/src.c.obj
+[2/2] Linking C executable cmTC_04454
+Memory region         Used Size  Region Size  %age Used
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fsanitize_undefined succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_656bf && [1/2] Building C object CMakeFiles/cmTC_656bf.dir/src.c.obj
+[2/2] Linking C executable cmTC_656bf
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fsanitize_undefined_trap_on_error succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_afb4f && [1/2] Building C object CMakeFiles/cmTC_afb4f.dir/src.c.obj
+[2/2] Linking C executable cmTC_afb4f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___no_relax succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_6edb9 && [1/2] Building C object CMakeFiles/cmTC_6edb9.dir/src.c.obj
+[2/2] Linking C executable cmTC_6edb9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_common_descending succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_a87b8 && [1/2] Building C object CMakeFiles/cmTC_a87b8.dir/src.c.obj
+[2/2] Linking C executable cmTC_a87b8
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_section_alignment succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_fe075 && [1/2] Building C object CMakeFiles/cmTC_fe075.dir/src.c.obj
+[2/2] Linking C executable cmTC_fe075
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__pg succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_6c6bd && [1/2] Building C object CMakeFiles/cmTC_6c6bd.dir/src.c.obj
+[2/2] Linking C executable cmTC_6c6bd
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__mcpu_cortex_m4__mthumb__mabi_aapcs__mfp16_format_ieee__mtp_soft__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_ce696 && [1/2] Building C object CMakeFiles/cmTC_ce696.dir/src.c.obj
+[2/2] Linking C executable cmTC_ce696
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_asynchronous_unwind_tables_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_38ea4 && [1/2] Building C object CMakeFiles/cmTC_38ea4.dir/src.c.obj
+[2/2] Linking C executable cmTC_38ea4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ftls_model_local_exec_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_a5a49 && [1/2] Building C object CMakeFiles/cmTC_a5a49.dir/src.c.obj
+[2/2] Linking C executable cmTC_a5a49
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_reorder_functions_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_f245e && [1/2] Building C object CMakeFiles/cmTC_f245e.dir/src.c.obj
+[2/2] Linking C executable cmTC_f245e
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check__param_min_pagesize_0_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_5b37a && [1/2] Building C object CMakeFiles/cmTC_5b37a.dir/src.c.obj
+[2/2] Linking C executable cmTC_5b37a
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_defer_pop_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_0523c && [1/2] Building C object CMakeFiles/cmTC_0523c.dir/src.c.obj
+[2/2] Linking C executable cmTC_0523c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map_C__ncs_v3_1_0_zephyr_samples_subsys_usb_hid_mouse_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_6ec51 && [1/2] Building C object CMakeFiles/cmTC_6ec51.dir/src.c.obj
+[2/2] Linking C executable cmTC_6ec51
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map_C__ncs_v3_1_0_zephyr_ZEPHYR_BASE_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_19c43 && [1/2] Building C object CMakeFiles/cmTC_19c43.dir/src.c.obj
+[2/2] Linking C executable cmTC_19c43
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map_C__ncs_v3_1_0_WEST_TOPDIR_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_9d2dc && [1/2] Building C object CMakeFiles/cmTC_9d2dc.dir/src.c.obj
+[2/2] Linking C executable cmTC_9d2dc
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ffunction_sections_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_602f1 && [1/2] Building C object CMakeFiles/cmTC_602f1.dir/src.c.obj
+[2/2] Linking C executable cmTC_602f1
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fdata_sections_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_5f3e7 && [1/2] Building C object CMakeFiles/cmTC_5f3e7.dir/src.c.obj
+[2/2] Linking C executable cmTC_5f3e7
+
+
+Source file was:
+int main(void) { return 0; }

@@ -1,0 +1,7 @@
+default: hid-mouse
+build_dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build
+domains:
+  - name: hid-mouse
+    build_dir: C:/ncs/v3.1.0/zephyr/samples/subsys/usb/hid-mouse/build/hid-mouse
+flash_order:
+  - hid-mouse
