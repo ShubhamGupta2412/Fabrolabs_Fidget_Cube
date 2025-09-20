@@ -49,6 +49,9 @@ struct bmx160_mag_data {
 int bmx160_mag_init(const struct device *i2c_dev, uint16_t addr);
 int bmx160_mag_read_data(const struct device *i2c_dev, uint16_t addr, 
                          struct bmx160_mag_data *data);
+int bmx160_read_accel(const struct device *i2c_dev, uint16_t addr, int16_t *accel_xyz);
+int bmx160_read_gyro (const struct device *i2c_dev, uint16_t addr, int16_t *gyro_xyz);
+
 int bmx160_soft_reset(const struct device *i2c_dev, uint16_t addr);
 int bmx160_set_accel_range(const struct device *i2c_dev, uint16_t addr, uint8_t range);
 int bmx160_set_gyro_range(const struct device *i2c_dev, uint16_t addr, uint8_t range);

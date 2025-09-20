@@ -134,3 +134,40 @@ data->rhall = (uint16_t)((raw_data[7] << 8) | raw_data[6]) >> 2;
     
     return 0;
 }
+
+int bmx160_read_accel(const struct device *i2c_dev, uint16_t addr, int16_t *accel_xyz)
+{
+    uint8_t data[6];
+    int ret;
+
+    // Read accel X, Y, Z (bytes 0x12–0x17)
+    ret = i2c_write_read(i2c_dev, addr, (uint8_t[]){0x12}, 1, data, sizeof(data));
+    if (ret < 0) {
+        return ret;
+    }
+
+    accel_xyz[0] = (int16_t)((data[1] << 8) | data[0]) >> 4;
+    accel_xyz[1] = (int16_t)((data[3] << 8) | data[2]) >> 4;
+    accel_xyz[2] = (int16_t)((data[5] << 8) | data[4]) >> 4;
+
+    return 0;
+}
+
+int bmx160_read_gyro(const struct device *i2c_dev, uint16_t addr, int16_t *gyro_xyz)
+{
+    uint8_t data[6];
+    int ret;
+
+    // Read gyro X, Y, Z (bytes 0x0C–0x11)
+    ret = i2c_write_read(i2c_dev, addr, (uint8_t[]){0x0C}, 1, data, sizeof(data));
+    if (ret < 0) {
+        return ret;
+    }
+
+    gyro_xyz[0] = (int16_t)((data[1] << 8) | data[0]) >> 4;
+    gyro_xyz[1] = (int16_t)((data[3] << 8) | data[2]) >> 4;
+    gyro_xyz[2] = (int16_t)((data[5] << 8) | data[4]) >> 4;
+
+    return 0;
+}
+

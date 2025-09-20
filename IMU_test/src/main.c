@@ -127,23 +127,49 @@ int main(void)
     LOG_INF("BMX160 initialization complete");
 
     while (1) {
-        /* Read all sensor data using custom driver */
-        ret = bmx160_mag_read_data(i2c_dev, BMX160_I2C_ADDR, &mag_data);
-        if (ret == 0) {
-            /* Display magnetometer results (in microTesla) */
-            printf("M X: %.2f  Y: %.2f  Z: %.2f  uT\n",
-                   mag_raw_to_ut(mag_data.x),
-                   mag_raw_to_ut(mag_data.y),
-                   mag_raw_to_ut(mag_data.z));
-        } else {
-            LOG_ERR("Failed to read magnetometer data");
-        }
+    int16_t accel_raw[3];
+    int16_t gyro_raw[3];
 
-        /* Optionally, add custom accel/gyro read functions here if implemented */
-        /* Example: bmx160_read_accel(i2c_dev, BMX160_I2C_ADDR, accel); */
-        /* Example: bmx160_read_gyro(i2c_dev, BMX160_I2C_ADDR, gyro); */
+    /* Read accel */
+    ret = bmx160_read_accel(i2c_dev, BMX160_I2C_ADDR, accel_raw);
+    if (ret == 0) {
+const double lsb_to_g    = 4.0 / 2048.0;
+const double g_to_ms2 = 9.80665;
 
-        k_msleep(SLEEP_TIME_MS);
+printf("A X: %7.2f  Y: %7.2f  Z: %7.2f m/s²\n",
+       accel_raw[0] * lsb_to_g * g_to_ms2,
+       accel_raw[1] * lsb_to_g * g_to_ms2,
+       accel_raw[2] * lsb_to_g * g_to_ms2);
+
+        
+    } else {
+        LOG_ERR("Accel read failed: %d", ret);
     }
+
+    /* Read gyro */
+    ret = bmx160_read_gyro(i2c_dev, BMX160_I2C_ADDR, gyro_raw);
+    if (ret == 0) {
+        printf("G X: %7.2f  Y: %7.2f  Z: %7.2f dps\n",
+               gyro_raw[0] * (500.0/32768),  // 500 dps range: LSB = 1/64 dps
+               gyro_raw[1] * (500.0/32768),
+               gyro_raw[2] * (500.0/32768));
+    } else {
+        LOG_ERR("Gyro read failed: %d", ret);
+    }
+
+    /* Read magnetometer */
+    ret = bmx160_mag_read_data(i2c_dev, BMX160_I2C_ADDR, &mag_data);
+    if (ret == 0) {
+        printf("M X: %6.2f  Y: %6.2f  Z: %6.2f uT\n",
+               mag_raw_to_ut(mag_data.x),
+               mag_raw_to_ut(mag_data.y),
+               mag_raw_to_ut(mag_data.z));
+    } else {
+        LOG_ERR("Mag read failed: %d", ret);
+    }
+
+    k_msleep(SLEEP_TIME_MS);
+}
+
     return 0;
 }
